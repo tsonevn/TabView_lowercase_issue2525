@@ -1,0 +1,19 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+  <StackLayout>
+    <TabView id="tabViewContainer" loaded="onTabViewLoaded" >
+        <TabView.items>
+            <TabViewItem title="Tab 1">
+                <TabViewItem.view>
+                    <Label text="This is Label in Tab 1" />
+                </TabViewItem.view>
+            </TabViewItem>
+            <TabViewItem title="Tab 2">
+                <TabViewItem.view>
+                    <Label text="This is Label in Tab 2" />
+                </TabViewItem.view>
+            </TabViewItem>
+        </TabView.items>
+    </TabView>
+    
+  </StackLayout>
+</Page>
